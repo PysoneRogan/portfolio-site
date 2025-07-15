@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio - Pysone Rogan J</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/Portfolio logo.png" type="image/png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- START NAV -->
+
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#welcome-section">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Work</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- END NAV -->
+
+    <!-- START WELCOME SECTION -->
+
+    <section id="welcome-section" class="welcome-section">
+        <div class="overlay">
+            <h3>Hi, I'm</h3>
+            <h1>Pysone Rogan J</h1>
+            <p>a B.Tech Graduate</p>
+            <button class="get-started-btn"
+                onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' });">Get Started </button>
+        </div>
+    </section>
+
+    <!-- END WELCOME SECTION -->
+
+    <!-- START WELCOME SECTION -->
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    Motivated and diligent college graduate with a track record of academic excellence seeking
+                    internship to
+                    gain hands-on experience and has an interest in tech domains such as software development and front
+                    end
+                    designs. With a solid foundation in Java, web technologies,
+                    and database management, I enjoy turning ideas into efficient and user-friendly applications.
+                    I thrive in team environments,
+                    adapt quickly to new tools and frameworks, and consistently aim to deliver high-quality results. I
+                    am now looking for
+                    opportunities where I can contribute, grow, and make a real impact through technology.
+                </p>
+                <h4>Field of interests</h4>
+                <ul>
+                    <li>Full Stack Web Development</li>
+                    <li>UI/UX - Frontend Design</li>
+                    <li>IoT-Based Solutions</li>
+                    <li>AI-Powered Solutions</li>
+                    <li>Career Guidance & EdTech</li>
+                </ul>
+            </div>
+            <div class="carousel-container">
+                <div class="carousel-images">
+                    <img src="images/College_bg.jpg" class="carousel-img active" alt="Image 1">
+                    <img src="images/CollegeDays_img.jpg" class="carousel-img" alt="Image 2">
+                    <img src="images/College_pic.jpg" class="carousel-img" alt="Image 3">
+                </div>
+
+                <!-- Mini nav buttons -->
+                <button class="carousel-btn prev" onclick="prevSlide()">❮</button>
+                <button class="carousel-btn next" onclick="nextSlide()">❯</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- END WELCOME SECTION -->
+
+    <!-- START PROJECTS SECTION -->
+
+    <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">MINI PROJECTS</h2>
+
+        <div class="projects-grid">
+            <a href="https://pysonerogan.github.io/Product_Landing_Page-Rog-s-Cafe/" target="_blank"
+                class="project project-tile">
+                <img class="project-image" src="images\logo w bg.webp" alt="project">
+                <p class="project-title">
+                    Product Landing Page
+                </p>
+            </a>
+            <a href="https://pysonerogan.github.io/CharCounter/" target="_blank" class="project project-tile">
+                <img class="project-image" src="images/CharCounter_page.png" alt="project">
+                <p class="project-title">
+                    CharCounter Page
+                </p>
+            </a>
+            <a href="https://pysonerogan.github.io/survey-form-rogs-music-academy/" target="_blank"
+                class="project project-tile">
+                <img class="project-image" src="images/Survey Form Page.png" alt="project">
+                <p class="project-title">
+                    Survey Form
+                </p>
+            </a>
+            <a href="https://pysonerogan.github.io/RPG_Dragon_Repeller_Game/" target="_blank"
+                class="project project-tile">
+                <img class="project-image" src="images/RPG dragon repeller game.png" alt="project">
+                <p class="project-title">
+                    RPG Dragon Repeller Game
+                </p>
+            </a>
+            <a href="https://pysonerogan.github.io/Technical_Documentation-Theory_of_Music/" target="_blank"
+                class="project project-tile">
+                <img class="project-image" src="images/Technical documentation.png" alt="project">
+                <p class="project-title">
+                    Technical Documentation
+                </p>
+            </a>
+            <a href="#" class="project project-tile">
+                <img class="project-image" src="images/tic-tac-toe img.png" alt="project">
+                <p class="project-title">
+                    Tic Tac Toe Game
+                </p>
+            </a>
+        </div>
+
+        <button class="show-more-btn"
+            onclick="window.open('https://github.com/PysoneRogan', '_blank').scrollIntoView({ behavior: 'smooth' });">Show
+            More→ </button>
+    </section>
+
+    <!-- END PROJECTS SECTION -->
+
+    <!-- START CONTACT SECTION -->
+
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Still scrolling? Let's start building</h2>
+            <p>console.log(‘Let’s connect!’);</p>
+        </div>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/pysone-rogan-j-05b0b5264" class="btn contact-details" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a id="profile-link" href="https://github.com/PysoneRogan" target="_blank" class="btn contact-details"><i
+                    class="fab fa-github"></i> GitHub</a>
+            <a href="https://wa.me/917305518745?text=Hi%20there!%20I%20saw%20your%20portfolio."
+                class="btn contact-details" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="mailto:pysone04engineer@gmail.com?subject=Let's%20Connect&body=Hi%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect!"
+                class="btn contact-details"><i class="fas fa-envelope"></i> Send a
+                mail</a>
+            <a href="tel:+917305518745" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+        </div>
+    </section>
+
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+
+    <footer>
+        <p>
+            **This portfolio belongs to <strong>Pysone Rogan J</strong> . All the credits mentioned in the page solely
+            belongs to the individual.
+        </p>
+        <p>
+            © Created for portfolio purpose, 2025
+        </p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- END FOOTER SECTION -->
+</body>
+
+</html>
